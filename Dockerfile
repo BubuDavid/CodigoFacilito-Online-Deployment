@@ -11,4 +11,4 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Define the command to run the app, using an argument to specify the script
-CMD ["python", "-u"]
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
