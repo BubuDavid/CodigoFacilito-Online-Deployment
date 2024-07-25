@@ -1,0 +1,8 @@
+cvlib
+opencv-python-headless
+Pillow
+tensorflow
+uvicorn
+python-multipart
+fastapi
+nest-asyncio
